@@ -1,0 +1,88 @@
+﻿
+{% load static %}
+
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/app.css'%}">
+<title></title>
+</head>
+<body>
+<div class='imgblock'>
+<img src='http://www.apg4u.com/img/header-default-bg.jpg' title='Семь чудес света'>
+<span><p  style="font-size: 35px">  ///// НОВОСТНОЙ САЙТ \\\\\ </p></span>
+</div>
+
+<h1><div id="content">
+   Самые свежие новости, только у нас и только сейчас!!!
+  </div>
+</h1>
+
+
+
+<div class="content container">
+<div class="row">
+<div class="col-md-8">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Ссылка</title>
+ </head>
+ <body> 
+   <p><a href="/post_ne"><img src="https://upload.wikimedia.org/wikipedia/ru/1/1f/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8_1_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_2009.jpg?size=2560x1707&quality=96&proxy=1&sign=bb698b9559e0b411a6db489d8a9acb69.jpg?sign=d2677af30d7d56c85258ec87ab30155e"  
+   width="708" height="300" align="left" alt="Пример"></a></p>
+ </body> 
+</html>
+
+{% for post in posts  %} 
+<p>{{ post.title }}</p>
+<p>{{ post.text }}</p>
+ 
+ <p><img src="https://st2.depositphotos.com/1439888/9411/i/600/depositphotos_94118248-stock-photo-female-user-avatar-icon.jpg" width="128" height="128" align="top" /><a href=""></h2> {{ order.Goods }} </a></p>
+ 
+ 
+ 
+
+<div class="content">
+<div class="content_prev">
+<img src="images/prev.jpg" alt="">      
+</div>
+<div class="category">
+
+</div>
+<div class="post">
+<h2>Создано Холмогоровой Настей</a></h2>
+</div>
+
+
+
+</div>
+{% endfor %}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Фиксированный подвал</title>
+  <style type="text/css">
+   BODY { margin-bottom: 50px; }
+   #footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #c0c0c0; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+  </style>
+ </head>
+ <body>
+  
+  <div id="footer">&copy; Anastasia 2020г. г.Ханты-мансийск номер-88002223954</div>
+ </body>
+</html>
+
+</div>
+</div>
+</div>
+</body>
+</html>
